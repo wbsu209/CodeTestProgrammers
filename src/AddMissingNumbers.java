@@ -9,7 +9,7 @@ public class AddMissingNumbers {
         return total;
     }
 
-    public int sumNaturalNumber(int finalNumber){
+    private int sumNaturalNumber(int finalNumber){
         if(finalNumber <= 1){
             return finalNumber;
         }else {
